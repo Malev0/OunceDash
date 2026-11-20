@@ -1,0 +1,26 @@
+# Game files are user-supplied and copyrighted: never commit them.
+*.apk
+/apk/
+/Geometry Dash/
+Resources/
+*.dat
+
+# Local clones of the ouncebrew repos (reference only; the build uses the
+# installed devkit packages)
+/deps/
+
+# Build output
+port/build/
+port/*.elf
+port/*.nacp
+port/*.nro
+port/*.map
+port/*.lst
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+__pycache__/
